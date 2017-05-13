@@ -116,7 +116,7 @@ detection_info **yolo_detect(yolo_handle handle, image im, float thresh, float h
 
 
 	draw_detections(im, l.w*l.h*l.n, thresh, obj->boxes, obj->probs, obj->names, 0, l.classes);
-        save_image(im, "/home/oytun/programs/pyyolo/test1");
+        save_image(im, "../test1");
 
 	free_list(output);
 	// free_image(im);
