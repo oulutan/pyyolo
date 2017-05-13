@@ -3,10 +3,8 @@ pyyolo is a simple wrapper for YOLO.
 
 ## Building
 1. git clone --recursive https://github.com/oulutan/pyyolo
-2. Edit Makefile to use GPU.
-3. make
-4. python setup.py build
-5. sudo python setup.py install
+2. Edit Makefile if you want to use CPU (default is GPU).
+3. bash rebuild.sh
 
 ## Test
 Edit parameters in example.py
